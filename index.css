@@ -1,0 +1,23 @@
+
+*{
+   background-color: rgb(20, 13, 4,0.7);
+}
+
+div{background-color: rgb(20, 13, 4,0.7); height: 800px; width: 100%;}
+
+        table{text-align: center;border: 5px solid black; width: 200px; height: 300px; background-color: gray;}
+        #output{text-align: right;width: 200px; height: 40px; font-size: 30px;padding-top: 20px; 
+            background-color: rgb(114, 209, 114);}
+       button{width: 50px;height: 30px;background-color: rgb(190, 145, 29);color: white;
+    background-color: rgb(185, 180, 180);font-weight: bolder;}
+    button:hover{width: 50px;height: 30px;background-color: rgb(190, 145, 29);color: white;
+    background-color: gray;font-weight: bolder;}
+       td{height: 30px;}
+       #c1{background-color: black;}
+       #c1:hover{background-color:rgb(70, 70, 70);}
+       h2{color: white; text-align: center; padding: 15px;}
+       
+       @media(max-width : 700px)
+       {
+          div{padding-left: 3px;}
+       }
